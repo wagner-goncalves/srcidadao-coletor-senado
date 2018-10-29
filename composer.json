@@ -1,0 +1,26 @@
+{
+    "name": "wagner-goncalves/srcidadao-coletor-senado",
+    "description": "Biblioteca para Download de XMLs dos Serviços de Dados Abertos do Senado Federal e Processamento dos XMLs para um banco de Dados MySQL.",
+    "keywords": ["senado", "senadores", "transparencia", "assiduidade", "votacoes"],
+    "license": "LGPL-3.0",
+    "authors": [
+        {
+            "name": "Wagner Gonçalves",
+            "email": "wagnerggg@gmail.com" 
+        }
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=7.1",
+        "catfan/Medoo": "*",
+        "vlucas/phpdotenv": "^2.4"        
+    },
+    "require-dev": {
+		"phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "SrCidadao\\Coletor\\": "src/"
+        }
+    }
+}
